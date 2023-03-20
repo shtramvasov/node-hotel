@@ -1,0 +1,29 @@
+@import '../../assets/styles/colors';
+
+.card {
+  border: 2px solid $gray;
+  padding: 2rem;
+  border-radius: $rounded-sm;
+
+  h2 {
+    color: $blue;
+  }
+
+  fieldset {
+    padding-top: 1rem;
+  }
+}
+
+.description {
+  padding: 0.5rem 0;
+}
+
+.reservation {
+  padding: 1rem;
+  background-color: $gray;
+  border-radius: $rounded-sm;
+
+  p {
+    color: $font-gray;
+  }
+}

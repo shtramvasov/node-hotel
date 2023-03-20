@@ -1,0 +1,27 @@
+@import '../../assets/styles/colors';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 1.5rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	background-color: $gray;
+	padding: 1.5rem;
+	gap: 1.5rem;
+	min-width: 30rem;
+}
+
+.reminder {
+	font-size: 14px;
+	color: $font-gray;
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+}
